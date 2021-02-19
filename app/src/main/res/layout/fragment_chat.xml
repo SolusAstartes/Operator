@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="top"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/battery_status"
+
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_Battery">
+
+        </TextView>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin_top_bottom"
+            android:layout_marginBottom="@dimen/margin_top_bottom"
+            android:background="@color/colorPrimaryDark">
+
+        </View>
+        <TextView
+            android:id="@+id/alert_threshold"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_AlertThreshold">
+
+
+
+        </TextView>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin_top_bottom"
+            android:layout_marginBottom="@dimen/margin_top_bottom"
+            android:background="@color/colorPrimaryDark">
+
+        </View>
+
+
+        <TextView
+            android:id="@+id/acceleration_above_threshold"
+
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_AccelerationAboveThreshold">
+
+
+
+        </TextView>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin_top_bottom"
+            android:layout_marginBottom="@dimen/margin_top_bottom"
+            android:background="@color/colorPrimaryDark">
+
+        </View>
+
+
+        <TextView
+            android:id="@+id/location"
+
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_location">
+
+
+
+        </TextView>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/margin_top_bottom"
+            android:layout_marginBottom="@dimen/margin_top_bottom"
+            android:background="@color/colorPrimaryDark">
+
+        </View>
+
+        <TextView
+            android:id="@+id/ubidots_connection_status"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/placeholder_UbidotsConnection">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+      >
+
+        <EditText
+            android:id="@+id/txtChatLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Decimal"
+            android:focusableInTouchMode="true"
+            android:hint="@string/txt_hint"
+            android:inputType="numberDecimal"
+            android:visibility="visible" >
+        </EditText>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtChatLine"
+            android:layout_marginTop="15dp"
+
+            android:text="@string/btn_send" />
+        <Button
+            android:layout_marginTop="15dp"
+            android:id="@+id/StartTrack"
+            android:layout_below="@id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/start_track" />
+    </RelativeLayout >
+
+</FrameLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KAFoperator</string>
+        <string name="finding_service">Finding local services</string>
+    <string name="btn_send">Send</string>
+    <string name="start_track">Bina İzlemeyi Başlat</string>
+    <string name="placeholder_location">Koordinatlar: </string>
+    <string name="placeholder_Battery">Takip Cihazının Şarjı: </string>
+    <string name="placeholder_AccelerationAboveThreshold">EŞİK ÜSTÜ İVME: </string>
+    <string name="placeholder_UbidotsConnection">Ubidots Bağlantısı: </string>
+
+    <string name="placeholder_AlertThreshold">Uyarı Eşiği: </string>
+
+
+    <string name="txt_hint">Alarm Eşik Değeri Giriniz</string>
+
+</resources>
