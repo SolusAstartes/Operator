@@ -1,3 +1,6 @@
 # kafoperator
 
-operator uygulaması. Tracker uygulamasına komut gönderir.
+Operator app.Sends commands to the tracker app.
+
+//TO DO
+add detailed explanation.
