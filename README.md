@@ -1,4 +1,4 @@
-# kafoperator
+# Operator
 
 Operator app.Sends commands to the tracker app.
 
